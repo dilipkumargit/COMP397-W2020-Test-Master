@@ -105,6 +105,7 @@ let Game = (function(){
                 console.log("switch to End Scene");
                 currentScene = new scenes.End(); 
                 break;
+                
         }
 
         currentSceneState = config.Game.SCENE;
