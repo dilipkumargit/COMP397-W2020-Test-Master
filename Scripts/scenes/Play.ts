@@ -11,6 +11,8 @@ module scenes
         private _newLevelButton: objects.Button;
 
         private _finalResult = 0;
+        no1:objects.Label;
+        no2:objects.Label;
         // PUBLIC PROPERTIES
 
         // CONSTRUCTOR
@@ -40,6 +42,7 @@ module scenes
                     this._finalResult += 1;
                     this.removeChild(this._dice1);
                     this._dice1 = new objects.Button(config.Game.ASSETS.getResult("1"), 200, 200, true);
+                    this.no1=new objects.Label('1',"30px", "fantasy", "blue", 40, 350, true);
                     this.addChild(this._dice1);
                     break;
                 }
@@ -48,6 +51,8 @@ module scenes
                     this._finalResult += 2;
                     this.removeChild(this._dice1);
                     this._dice1 = new objects.Button(config.Game.ASSETS.getResult("2"), 200, 200, true);
+                    this.no1=new objects.Label('2',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice1);
                     break;
                 }
@@ -56,6 +61,8 @@ module scenes
                     this._finalResult += 3;
                     this.removeChild(this._dice1);
                     this._dice1 = new objects.Button(config.Game.ASSETS.getResult("3"), 200, 200, true);
+                    this.no1=new objects.Label('3',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice1);
                     break;
                 }
@@ -64,6 +71,8 @@ module scenes
                     this._finalResult += 4;
                     this.removeChild(this._dice1);
                     this._dice1 = new objects.Button(config.Game.ASSETS.getResult("4"), 200, 200, true);
+                    this.no1=new objects.Label('4',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice1);
                     break;
                 }
@@ -72,6 +81,8 @@ module scenes
                     this._finalResult += 5;
                     this.removeChild(this._dice1);
                     this._dice1 = new objects.Button(config.Game.ASSETS.getResult("5"), 200, 200, true);
+                    this.no1=new objects.Label('5',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice1);
                     break;
                 }
@@ -80,6 +91,8 @@ module scenes
                     this._finalResult += 6;
                     this.removeChild(this._dice1);
                     this._dice1 = new objects.Button(config.Game.ASSETS.getResult("6"), 200, 200, true);
+                    this.no1=new objects.Label('6',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice1);
                     break;
                 }
@@ -97,6 +110,8 @@ module scenes
                     this._finalResult += 1;
                     this.removeChild(this._dice2);
                     this._dice2 = new objects.Button(config.Game.ASSETS.getResult("1"), 450, 200, true);
+                    this.no2=new objects.Label('1',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice2);
                     break;
                 }
@@ -105,6 +120,8 @@ module scenes
                     this._finalResult += 2;
                     this.removeChild(this._dice2);
                     this._dice2 = new objects.Button(config.Game.ASSETS.getResult("2"), 450, 200, true);
+                    this.no2=new objects.Label('2',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice2);
                     break;
                 }
@@ -113,6 +130,8 @@ module scenes
                     this._finalResult += 3;
                     this.removeChild(this._dice2);
                     this._dice2 = new objects.Button(config.Game.ASSETS.getResult("3"), 450, 200, true);
+                    this.no2=new objects.Label('3',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice2);
                     break;
                 }
@@ -121,6 +140,8 @@ module scenes
                     this._finalResult += 4;
                     this.removeChild(this._dice2);
                     this._dice2 = new objects.Button(config.Game.ASSETS.getResult("4"), 450, 200, true);
+                    this.no2=new objects.Label('4',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice2);
                     break;
                 }
@@ -129,6 +150,8 @@ module scenes
                     this._finalResult += 5;
                     this.removeChild(this._dice2);
                     this._dice2 = new objects.Button(config.Game.ASSETS.getResult("5"), 450, 200, true);
+                    this.no2=new objects.Label('5',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice2);
                     break;
                 }
@@ -137,6 +160,8 @@ module scenes
                     this._finalResult += 6;
                     this.removeChild(this._dice2);
                     this._dice2 = new objects.Button(config.Game.ASSETS.getResult("6"), 450, 200, true);
+                    this.no2=new objects.Label('6',"30px", "fantasy", "blue", 40, 350, true);
+
                     this.addChild(this._dice2);
                     break;
                 }
