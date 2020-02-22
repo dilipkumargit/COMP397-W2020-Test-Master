@@ -8,6 +8,8 @@ body
     background-color: white;
     border: 1px dotted black;
     border-radius: 10px;
+    background-image: url(../Assets/images/dicebackground.png);
+
 }
 
 #mainContent
