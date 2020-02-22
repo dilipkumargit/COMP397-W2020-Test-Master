@@ -105,6 +105,10 @@ let Game = (function(){
                 console.log("switch to End Scene");
                 currentScene = new scenes.End(); 
                 break;
+            case scenes.State.NEWLEVEL:
+                    console.log("switch to new level Scene");
+                    currentScene = new scenes.NewLevel(); 
+                    break;
         }
 
         currentSceneState = config.Game.SCENE;
